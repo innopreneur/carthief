@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 9b379d9bbd4be0440b861e3f43e93a34
+timeCreated: 1465851763
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: //RootNode
+    100004: Eyes
+    100006: Glass
+    100008: Model__bon
+    100010: Model__boo
+    100012: Model__bu1
+    100014: Model__bum
+    100016: Model__cha
+    100018: Model__do1
+    100020: Model__do2
+    100022: Model__do3
+    100024: Model__doo
+    100026: Model__ext
+    100028: Model__pan
+    100030: Model__ped
+    100032: Model__pl1
+    100034: Model__pla
+    100036: Model__rul
+    100038: Model__sto
+    100040: Model__wi1
+    100042: Model__win
+    100044: Sublights
+    100046: Wheels
+    100048: Wheels_Pla
+    400000: Body
+    400002: //RootNode
+    400004: Eyes
+    400006: Glass
+    400008: Model__bon
+    400010: Model__boo
+    400012: Model__bu1
+    400014: Model__bum
+    400016: Model__cha
+    400018: Model__do1
+    400020: Model__do2
+    400022: Model__do3
+    400024: Model__doo
+    400026: Model__ext
+    400028: Model__pan
+    400030: Model__ped
+    400032: Model__pl1
+    400034: Model__pla
+    400036: Model__rul
+    400038: Model__sto
+    400040: Model__wi1
+    400042: Model__win
+    400044: Sublights
+    400046: Wheels
+    400048: Wheels_Pla
+    2300000: Body
+    2300002: Eyes
+    2300004: Glass
+    2300006: Model__bon
+    2300008: Model__boo
+    2300010: Model__bu1
+    2300012: Model__bum
+    2300014: Model__cha
+    2300016: Model__do1
+    2300018: Model__do2
+    2300020: Model__do3
+    2300022: Model__doo
+    2300024: Model__ext
+    2300026: Model__pan
+    2300028: Model__ped
+    2300030: Model__pl1
+    2300032: Model__pla
+    2300034: Model__rul
+    2300036: Model__sto
+    2300038: Model__wi1
+    2300040: Model__win
+    2300042: Sublights
+    2300044: Wheels
+    2300046: Wheels_Pla
+    3300000: Body
+    3300002: Eyes
+    3300004: Glass
+    3300006: Model__bon
+    3300008: Model__boo
+    3300010: Model__bu1
+    3300012: Model__bum
+    3300014: Model__cha
+    3300016: Model__do1
+    3300018: Model__do2
+    3300020: Model__do3
+    3300022: Model__doo
+    3300024: Model__ext
+    3300026: Model__pan
+    3300028: Model__ped
+    3300030: Model__pl1
+    3300032: Model__pla
+    3300034: Model__rul
+    3300036: Model__sto
+    3300038: Model__wi1
+    3300040: Model__win
+    3300042: Sublights
+    3300044: Wheels
+    3300046: Wheels_Pla
+    4300000: Model__bon
+    4300002: Model__boo
+    4300004: Model__win
+    4300006: Model__wi1
+    4300008: Model__bum
+    4300010: Model__pla
+    4300012: Model__bu1
+    4300014: Model__pl1
+    4300016: Model__doo
+    4300018: Model__do1
+    4300020: Model__do2
+    4300022: Model__do3
+    4300024: Model__sto
+    4300026: Model__ext
+    4300028: Model__cha
+    4300030: Model__pan
+    4300032: Model__ped
+    4300034: Model__rul
+    4300036: Wheels
+    4300038: Wheels_Pla
+    4300040: Eyes
+    4300042: Body
+    4300044: Glass
+    4300046: Sublights
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
