@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class CarController : MonoBehaviour {
+public class PlayerCarController : MonoBehaviour {
 
     private MoveLeftInput leftInput;
     private MoveRightInput rightInput;
@@ -10,10 +10,9 @@ public class CarController : MonoBehaviour {
     public Image leftButton;
     public Image rightButton;
     public float strafeSpeed = 6f;
-    public float carPositionLimitX = 18f;
+    public float positionLimitX = 18f;
 
     private Transform playerTransform;
-    private Rigidbody2D rgbd;
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +20,6 @@ public class CarController : MonoBehaviour {
         leftInput = leftButton.GetComponent<MoveLeftInput>();
         rightInput = rightButton.GetComponent<MoveRightInput>();
 
-        rgbd = GetComponent<Rigidbody2D>();
         playerTransform = GetComponent<Transform>();
     }
 	
@@ -29,7 +27,7 @@ public class CarController : MonoBehaviour {
 	void Update () {
 
         Move();
-        float xPosition = Mathf.Clamp(playerTransform.position.x, -carPositionLimitX, carPositionLimitX);
+        float xPosition = Mathf.Clamp(playerTransform.position.x, -positionLimitX, positionLimitX);
         playerTransform.position = new Vector3(xPosition, playerTransform.position.y);
     }
 
@@ -45,4 +43,6 @@ public class CarController : MonoBehaviour {
             playerTransform.Translate(Vector3.right * strafeSpeed);
         }
     }
+
+
 }

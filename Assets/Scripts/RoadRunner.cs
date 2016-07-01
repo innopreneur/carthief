@@ -16,8 +16,8 @@ public class RoadRunner : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         
-            offset = Vector2.up * roadRunnerSpeed * Time.time;
-            roadRenderer.material.mainTextureOffset = offset;
+         offset = Vector2.up * roadRunnerSpeed * Time.time;
+         roadRenderer.material.mainTextureOffset = offset;
         
        
 	}
